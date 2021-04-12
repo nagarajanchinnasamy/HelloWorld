@@ -9,7 +9,6 @@ const reqRespHandler =(req, res) => {
   res.end('Hello World');
 };
 
-
 const server = http.createServer(reqRespHandler);
 
 server.listen(port, hostname, () => {
